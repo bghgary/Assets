@@ -12,7 +12,7 @@ Generator (not in this repo): `babylon-fbx/tools/fbx-test-generator`.
 - **Axis**: M16 includes genuinely Z-up and Y-up authorings. The Babylon loader converts both to the
   engine's Y-up space, so all three M16 files load identically. (Maya does NOT convert on import, so
   the Z-up file looks rotated there — that is the proof it is genuinely Z-up.)
-- **Cameras/lights** (M15): FBX cameras look down local +X, lights down local −Z; both are aimed at
+- **Cameras/lights** (M15): FBX cameras look down local +X, lights down local -Z; both are aimed at
   the subject. View M15 through its own perspective camera.
 
 ## Models
